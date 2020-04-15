@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-{
 
-public class Fisk
+namespace Zoo_ConsoleApp
 {
-	public Fisk()
+	public class Fisk : Dyr
 	{
+		public double Længde { get; }
+		public Fisk(string navn, double vægt, string køn, double længde) : base(navn, vægt, køn)
+		{
+			Længde = længde;
+		}
 	}
-}
+
+
+
 }

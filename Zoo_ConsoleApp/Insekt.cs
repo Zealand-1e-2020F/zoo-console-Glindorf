@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-{
 
-	public class Insekt:Dyr
+namespace Zoo_ConsoleApp
+{
+	public class Insekt : Dyr
 	{
-		public Insekt()
+		public Insekt(string navn, double vægt, string køn) : base(navn, vægt, køn)
 		{
 		}
 	}
+
 }
