@@ -29,6 +29,9 @@ namespace Zoo_ConsoleApp
             this.Køn = køn;
         }
 
-
+        public override string ToString()
+        {
+            return $"Her er en {Navn}. Den vejer {Vægt} kg og er {Køn}.";
+        }
     }
 }

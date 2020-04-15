@@ -10,5 +10,9 @@ namespace Zoo_ConsoleApp
         {
 
         }
+        public bool ErByttedyr()
+        {
+            return true;
+        }
     }
 }
